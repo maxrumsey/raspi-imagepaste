@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paste Bin</title>
+    <script>
+      function search() {
+        val = document.getElementById('searchinput').value;
+        document.location = document.location + val;
+      }
+    </script>
+    <style>
+      textarea {
+        width: calc(50vw);
+        height: calc(50vh);
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Upload Paste</h2>
+    <form method="POST" id="pasteform" action="/paste">
+      <textarea cols=50 form="pasteform" name="paste">
+      </textarea>
+      <input type="submit">
+    </form>
+
+    <h2>Upload File</h2>
+    <form method="POST" id="imageform" action="/image" enctype="multipart/form-data">
+      <input type="file" name="image">
+      <input type="submit">
+    </form>
+  </body>
+</html>

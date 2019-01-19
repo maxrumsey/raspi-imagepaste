@@ -1,0 +1,17 @@
+{
+  "name": "imagepaste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-type": "^10.7.0",
+    "hapi": "^18.0.0",
+    "inert": "^5.1.2",
+    "nanoid": "^2.0.1"
+  }
+}
