@@ -14,6 +14,7 @@ const server = Hapi.server({
 // Loads subrouters
 const files = [
   require('./routers/image.js'),
+  require('./routers/paste.js'),
   require('./routers/static.js'),
 ]
 

@@ -2,3 +2,5 @@ node_modules/
 package-lock.json
 uploads/*
 !uploads/holder
+files/*
+!files/holder
