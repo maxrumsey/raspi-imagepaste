@@ -1,3 +1,6 @@
+/*
+ * This project is licensed via the MIT License. (c) 2019 Max Rumsey
+ */
 const fs = require('fs');
 const filetype = require('file-type');
 const nanoid = require('nanoid');

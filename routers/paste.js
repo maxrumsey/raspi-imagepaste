@@ -1,4 +1,7 @@
-const fs = require('fs');
+/*
+ * This project is licensed via the MIT License. (c) 2019 Max Rumsey
+ */
+ const fs = require('fs');
 const nanoid = require('nanoid');
 
 exports.static = {

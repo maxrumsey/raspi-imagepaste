@@ -1,3 +1,6 @@
+/*
+ * This project is licensed via the MIT License. (c) 2019 Max Rumsey
+ */
 const Hapi = require('hapi');
 const Path = require('path');
 
@@ -41,3 +44,6 @@ async function init() {
 
 // Initialize the server
 init()
+  .catch(e => {
+    throw e;
+  })

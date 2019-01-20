@@ -1,14 +1,14 @@
 {
   "name": "imagepaste",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "A file and paste storage website.",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "watch": "./node_modules/.bin/nodemon server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Max Rumsey <max@maxrumsey.xyz> (https://maxrumsey.xyz)",
+  "license": "MIT",
   "dependencies": {
     "file-type": "^10.7.0",
     "hapi": "^18.0.0",
